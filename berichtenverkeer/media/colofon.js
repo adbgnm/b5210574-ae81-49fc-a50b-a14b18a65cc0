@@ -16,7 +16,7 @@ var respecConfig = {
   pubDomain: "b5210574-ae81-49fc-a50b-a14b18a65cc0", // Aanpassen na verplaatsing naar nieuwe Github repos 
   //previousURI: "https://www.geonovum.nl/BRO",
   github: "https://github.com/adbgnm/b5210574-ae81-49fc-a50b-a14b18a65cc0",
-  //previousPublishDate: "1900-01-01",
+  previousPublishDate: "2017-01-01",
   //previousStatus: "GN-WV",
   //localBiblio: {
   //  "ISO19136": {
