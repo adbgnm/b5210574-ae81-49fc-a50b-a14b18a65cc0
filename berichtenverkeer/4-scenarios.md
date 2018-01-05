@@ -1,13 +1,21 @@
 # Scenario's
 
-Het BRO berichtenverkeer kent de volgende scenario's:
-Registreren van gegevens
-Corrigeren van gegevens
-Afnemen van gegevens
+In dit hoofdstuk worden de interactiepatronen van verschillende scenario's beschreven in het BRO berichtenverkeer voor de volgende use cases:
 
-De interactiepatronen worden sequentiediagrammen afgebeeld.
+1. Registreren van gegevens: een dataleverancier wil gegevens registreren in de LV-BRO.  
+2. Corrigeren van gegevens: een dataleverancier wil gegevens corrigeren in de LV-BRO.  
+3. Afnemen van gegevens: een data-afnemer wil gegevens afnemen van de LV-BRO.  
+
+
+![Use case model BRO berichtenverkeer](media/fig-bro-usecasemodel.png)
+
+De use cases zijn afgebeeld in het use case model; de interactiepatronen voor de verschillende scenario's worden in sequentiediagrammen afgebeeld.
+
 
 ## Registreren van gegevens
+
+### Basisscenario: verzoek tot registratie succesvol verwerkt
+
 De verwerking van een registratieverzoek verloopt geheel automatisch en volgens een vaste opeenvolging van stappen. Dit is waar het in het kort op neerkomt:
 
 1. De dataleverancier stuurt vanuit zijn systeem een registratieverzoek met daarin een brondocument. Het systeem van de BRO voert een toegangscontrole uit.
@@ -22,7 +30,16 @@ Het resultaat van de verwerking is dat het brondocument in het register brondocu
 
 Het verzoek van de dataleverancier en het antwoord dat de BRO daarop normaliter geeft worden berichten genoemd. In het geval zich technische problemen voordoen wordt het antwoord een melding genoemd.
 
+### Foutscenario: verzoek tot registratie afgekeurd
+
+
+
 ## Corrigeren van gegevens
+
+### Basisscenario: verzoek tot correctie succesvol verwerkt
+
+### Foutscenario: verzoek tot correctie afgekeurd
+
 De verwerking van een correctieverzoek verloopt iets anders dan dat van een registratieverzoek. De eerste stappen in de verwerking zijn hetzelfde, maar nadat het BRO-systeem heeft gecontroleerd of alles goed is, neemt de registratiebeheerder de controle over. 
 Dit is waar het in het kort op neerkomt:
 
