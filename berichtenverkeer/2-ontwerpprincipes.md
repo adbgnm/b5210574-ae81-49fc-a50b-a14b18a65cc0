@@ -1,6 +1,6 @@
 # Ontwerpprincipes
 
-# Actoren en systemen
+## Actoren en systemen
 
 De basisregistratie ondergrond is een systeem dat een schakel vormt in een informatieketen. 
 
