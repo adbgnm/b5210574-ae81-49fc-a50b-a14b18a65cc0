@@ -1,6 +1,6 @@
 # Inleiding
 
-## Doel en doelgroep uitgiftehandboek
+## Doel en doelgroep
 In de basisregistratie ondergrond (BRO) wordt een aantal typen gegevens geregistreerd, de registratieobjecten. Een van de registratieobjecten is de grondwatermonitoringput.
 
 Dit document richt zich op de partijen die de grondwatermonitoringput
