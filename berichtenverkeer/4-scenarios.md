@@ -1,10 +1,13 @@
 # Scenario's
 
-Het BRO berichtenverkeer kent de volgende scenario's
+Het BRO berichtenverkeer kent de volgende scenario's:
+Registreren van gegevens
+Corrigeren van gegevens
+Afnemen van gegevens
 
 De interactiepatronen worden sequentiediagrammen afgebeeld.
 
-## Registreren
+## Registreren van gegevens
 De verwerking van een registratieverzoek verloopt geheel automatisch en volgens een vaste opeenvolging van stappen. Dit is waar het in het kort op neerkomt:
 
 1. De dataleverancier stuurt vanuit zijn systeem een registratieverzoek met daarin een brondocument. Het systeem van de BRO voert een toegangscontrole uit.
@@ -19,7 +22,7 @@ Het resultaat van de verwerking is dat het brondocument in het register brondocu
 
 Het verzoek van de dataleverancier en het antwoord dat de BRO daarop normaliter geeft worden berichten genoemd. In het geval zich technische problemen voordoen wordt het antwoord een melding genoemd.
 
-## Corrigeren
+## Corrigeren van gegevens
 De verwerking van een correctieverzoek verloopt iets anders dan dat van een registratieverzoek. De eerste stappen in de verwerking zijn hetzelfde, maar nadat het BRO-systeem heeft gecontroleerd of alles goed is, neemt de registratiebeheerder de controle over. 
 Dit is waar het in het kort op neerkomt:
 
@@ -35,5 +38,4 @@ Het resultaat van de verwerking is dat het brondocument in het register brondocu
 
 De stappen en de bijbehorende berichten voor het corrigeren van gegevens worden in het onderstaande sequentiediagram getoond.
 
-
-## Afnemen
+## Afnemen van gegevens
