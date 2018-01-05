@@ -6,7 +6,6 @@ In dit hoofdstuk worden de interactiepatronen van verschillende scenario's besch
 2. Corrigeren van gegevens: een dataleverancier wil gegevens corrigeren in de LV-BRO.  
 3. Afnemen van gegevens: een data-afnemer wil gegevens afnemen van de LV-BRO.  
 
-
 ![Use case model BRO berichtenverkeer](media/fig-bro-usecasemodel.png)
 
 De use cases zijn afgebeeld in het use case model; de interactiepatronen voor de verschillende scenario's worden in sequentiediagrammen afgebeeld.
