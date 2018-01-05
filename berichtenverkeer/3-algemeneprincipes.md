@@ -22,3 +22,8 @@ Er worden vier typen correctieverzoeken onderscheiden en dat zijn:
 •	het verzoek gegevens te verplaatsen. 
 
 De verschillende typen correctieverzoeken worden net als de registratieverzoeken via de innamewebservice aangeboden en de gegevens en controles verschillen per type verzoek. 
+
+**toegevoegd**
+##Interactiepatronen
+Bij het interactiepatroon verzoek-respons is er een onderscheid tussen synchroon en asynchroon berichtenverkeer. Bij synchroon berichtenverkeer wordt de respons verwacht op de verbinding waarover het bericht is verzonden. De verzender wacht, totdat de respons over die verbinding is ontvangen of oordeelt dat er.
+**einde toegevoegd**
