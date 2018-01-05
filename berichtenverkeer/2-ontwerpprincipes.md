@@ -14,8 +14,6 @@ Het adres van de BRO-webservices is te vinden op www.broinfo.nl.
 
 De webservice zorgt ervoor dat het systeem van de data-leverancier een verzoek tot het innemen van gegevens aan het BRO-systeem kan aanbieden, zorgt voor de verwerking van het verzoek en geeft het resultaat daarvan als antwoord van de BRO terug aan het systeem van de dataleverancier (Figuur 2). 
 
-<mark>Bij het interactiepatroon verzoek-respons is er een onderscheid tussen synchroon en asynchroon berichtenverkeer. Bij synchroon berichtenverkeer wordt de respons verwacht op de verbinding waarover het bericht is verzonden. De verzender wacht, totdat de respons over die verbinding is ontvangen of oordeelt dat er.</mark>
-
 ## Inname
 
 De dataleverancier biedt gegevens aan met het doel de gegevens op te laten nemen in de registratie ondergrond. Het proces van inname begint aan de kant van de dataleverancier met een verzoek. Vervolgens beoordeelt de basisregistratie ondergrond dat verzoek om, als alles goed is, de gegevens in het systeem op te nemen. Gaat er iets onverhoopt fout, dan wijst de basisregistratie ondergrond het verzoek af. In alle gevallen krijgt de dataleverancier een antwoord op het verzoek terug. 
