@@ -1,8 +1,8 @@
 var respecConfig = {
-  specStatus: "GN-DEF",
+  specStatus: "GN-WV",
   specType: "ST",
   //canonicalURI: "WV",
-  publishDate: "2017-11-10",
+  publishDate: "2018-01-01",
   editors: [
     {
       name: "Arnoud de Boer",
@@ -13,11 +13,11 @@ var respecConfig = {
     }  
   ],
   shortName: "berichtenverkeer",
-  pubDomain: "geobag", 
-  previousURI: "https://docs.geostandaarden.nl/geobag/Geo-BAG berichtenverkeer v1.0.2/",
-  github: "https://github.com/Geonovum/geobag",
-  previousPublishDate: "2017-08-01",
-  previousStatus: "GN-DEF",
+  pubDomain: "b5210574-ae81-49fc-a50b-a14b18a65cc0", // Aanpassen na verplaatsing naar nieuwe Github repos 
+  previousURI: "https://www.geonovum.nl/BRO",
+  github: "https://github.com/adbgnm/b5210574-ae81-49fc-a50b-a14b18a65cc0",
+  previousPublishDate: "1900-01-01",
+  previousStatus: "GN-WV",
   //localBiblio: {
   //  "ISO19136": {
   //    "href": "https://www.iso.org/standard/32554.html",
