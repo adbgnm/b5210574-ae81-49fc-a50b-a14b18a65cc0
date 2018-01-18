@@ -13,24 +13,30 @@ De use cases zijn afgebeeld in het use case model; de interactiepatronen voor de
 
 ## Registreren van gegevens
 
-### Basisscenario: verzoek tot registratie succesvol verwerkt
+### Basis: registratieverzoek succesvol verwerkt
 
 De verwerking van een registratieverzoek verloopt geheel automatisch en volgens een vaste opeenvolging van stappen. Dit is waar het in het kort op neerkomt:
 
 1. De dataleverancier stuurt vanuit zijn systeem een registratieverzoek met daarin een brondocument. Het systeem van de BRO voert een toegangscontrole uit.
 2. Wanneer toegang tot het systeem van de BRO is verkregen, begint de controle van het verzoek en wordt onder meer vastgesteld of het verzoek inhoudelijk aan de gestelde eisen voldoet.
-3. Wanneer de inhoudelijke controle fouten oplevert, wordt het verzoek afgewezen en ontvangt het systeem van de dataleverancier een bericht van afwijzing.
-4. Wanneer de inhoudelijke controle geen fouten oplevert en er geen technische problemen zijn, wordt het registratieverzoek door het systeem van de BRO geaccepteerd. De aangeboden gegevens worden met de gegevens die de BRO zelf genereert vastgelegd. Het BRO-systeem stuurt het systeem van de dataleverancier als antwoord het bericht dat diens registratieverzoek is verwerkt.
-
-De stappen en de bijbehorende berichten voor het registeren van gegevens worden in het onderstaande sequentiediagram getoond.
-
+3. Wanneer de inhoudelijke controle geen fouten oplevert en er geen technische problemen zijn, wordt het registratieverzoek door het systeem van de BRO geaccepteerd. De aangeboden gegevens worden met de gegevens die de BRO zelf genereert vastgelegd. Het BRO-systeem stuurt het systeem van de dataleverancier als antwoord het bericht dat diens registratieverzoek is verwerkt.
 
 Het resultaat van de verwerking is dat het brondocument in het register brondocumenten ondergrond is opgenomen, dat de gegevens eruit zijn gehaald en vastgelegd zijn in de registratie ondergrond. De gegevens zijn dan voor eenieder beschikbaar.
 
-Het verzoek van de dataleverancier en het antwoord dat de BRO daarop normaliter geeft worden berichten genoemd. In het geval zich technische problemen voordoen wordt het antwoord een melding genoemd.
+De stappen en de bijbehorende berichten voor het registeren van gegevens worden in het onderstaande sequentiediagram getoond.
 
-### Foutscenario: verzoek tot registratie afgekeurd
+![Sequentiediagram Basis. Registreren van gegevens](media/fig-seq-basis-registreren-gegevens.png)
 
+### Fout: registratieverzoek afgewezen
+
+1. De dataleverancier stuurt vanuit zijn systeem een registratieverzoek met daarin een brondocument. Het systeem van de BRO voert een toegangscontrole uit.
+2. Wanneer toegang tot het systeem van de BRO is verkregen, begint de controle van het verzoek en wordt onder meer vastgesteld of het verzoek inhoudelijk aan de gestelde eisen voldoet.
+3. Wanneer de inhoudelijke controle fouten oplevert, wordt het verzoek afgewezen en ontvangt het systeem van de dataleverancier een bericht van afwijzing.
+
+Het resultaat van de verwerking is dat het brondocument niet in het register van brondocumenten ondergrond is opgenomen. De gegevens zijn niet voor eenieder beschikbaar.
+
+
+De stappen en de bijbehorende berichten voor het registeren van gegevens worden in het onderstaande sequentiediagram getoond.
 
 
 ## Corrigeren van gegevens
