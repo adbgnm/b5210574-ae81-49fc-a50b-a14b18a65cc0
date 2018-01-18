@@ -5,6 +5,7 @@
 ###  verzoekkenmerk
 
 [Tabel: Beschrijving van het attribuut verzoekkenmerk]
+
 | Naam | verzoekkenmerk |
 | :--- | :--- |
 | Stereotype | «Attribuutsoort» |
@@ -19,6 +20,7 @@
 ### verzoekkenmerk
 
 [Tabel: Beschrijving van het attribuut verzoekkenmerk]
+
 | Naam | identificatie |
 | :--- | :--- |
 | Stereotype | «Attribuutsoort» |
