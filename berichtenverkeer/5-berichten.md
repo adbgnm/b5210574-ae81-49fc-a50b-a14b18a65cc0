@@ -1,0 +1,9 @@
+# Berichten
+
+## Registratieverzoek
+
+
+
+## Registratiebericht
+
+## Afwijzigingsbericht
