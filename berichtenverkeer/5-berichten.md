@@ -46,8 +46,6 @@ Onderstaand figuur toont de berichten in het BRO berichtenverkeer.
 | ----------| --------------| -------------|
 | verzoekkenmerk | 1-1 | Zie [paragraaf ](#711-identificatie) |
 | transactie-ID | 1-1 | Zie [paragraaf ](#711-identificatie) |
-
-
 | BRO-ID | 1-1 | Zie [paragraaf ](#711-identificatie) |
 | tijdstip van verwerking | 1-1 | Zie [paragraaf ](#711-identificatie) |
 
