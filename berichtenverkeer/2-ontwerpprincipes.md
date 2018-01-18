@@ -7,13 +7,6 @@ De basisregistratie ondergrond is een systeem dat een schakel vormt in een infor
 Aan het begin van de keten staan bestuursorganen die opdracht geven tot de productie van gegevens, of zelf gegevens produceren. Die bestuursorganen worden _bronhouders_ genoemd. De geproduceerde gegevens worden door een _dataleverancier_ geleverd aan de beheerder van het systeem, de _registerbeheerder_. De bronhouder is verantwoordelijk voor de levering van gegevens. Hij kan besluiten zelf dataleverancier te zijn of andere partijen een machtiging voor levering te verlenen. De beheerder van de BRO registreert de aangeleverde gegevens en levert ze voor (her)gebruik door aan allerlei afnemers.
 
 
-## Communicatie tussen twee systemen
-
-De dataleverancier die voor het aanbieden van gegevens van de grondwatermonitoringput gebruik maakt van de innamewebservice, gebruikt via zijn eigen systeem algemene BRO-software die via het internet voor iedereen te vinden is. 
-Het adres van de BRO-webservices is te vinden op www.broinfo.nl. 
-
-De webservice zorgt ervoor dat het systeem van de data-leverancier een verzoek tot het innemen van gegevens aan het BRO-systeem kan aanbieden, zorgt voor de verwerking van het verzoek en geeft het resultaat daarvan als antwoord van de BRO terug aan het systeem van de dataleverancier (Figuur 2). 
-
 ## Inname
 
 De dataleverancier biedt gegevens aan met het doel de gegevens op te laten nemen in de registratie ondergrond. Het proces van inname begint aan de kant van de dataleverancier met een verzoek. Vervolgens beoordeelt de basisregistratie ondergrond dat verzoek om, als alles goed is, de gegevens in het systeem op te nemen. Gaat er iets onverhoopt fout, dan wijst de basisregistratie ondergrond het verzoek af. In alle gevallen krijgt de dataleverancier een antwoord op het verzoek terug. 
@@ -32,3 +25,19 @@ Via een innameverzoek kan een dataleverancier niet alle gegevens van een registr
 Iedereen mag gegevens opvragen uit de registratie ondergrond en men kan daarbij kiezen uit twee mogelijkheden, via DINOloket of via een uitgiftewebservice. De verschillen tussen de twee zijn groot en wat de gebruiker kiest hangt af van zijn informatiebehoefte en de technische mogelijkheden waarover hij beschikt. 
 DINOloket biedt een laagdrempelige manier voor het opvragen van gegevens die door iedereen kan worden gebruikt. De webservice geeft meer direct toegang tot de registratie, maar vraagt wel dat de gebruiker over geschikte software beschikt. 
 
+
+
+## Communicatie tussen twee systemen
+
+De dataleverancier die voor het aanbieden van gegevens van de grondwatermonitoringput gebruik maakt van de innamewebservice, gebruikt via zijn eigen systeem algemene BRO-software die via het internet voor iedereen te vinden is. 
+Het adres van de BRO-webservices is te vinden op www.broinfo.nl. 
+
+De webservice zorgt ervoor dat het systeem van de data-leverancier een verzoek tot het innemen van gegevens aan het BRO-systeem kan aanbieden, zorgt voor de verwerking van het verzoek en geeft het resultaat daarvan als antwoord van de BRO terug aan het systeem van de dataleverancier. 
+
+![Communicatie tussen leverancier en inname BRO berichtenverkeer](media/fig-communicatie-leverancier-inname.png)
+
+De data-afnemer die voor het opvragen van gegevens van grondwatermonitoringputten gebruik maakt van de uitgiftewebservice, gebruikt via zijn eigen systeem algemene BRO-software die via het internet voor iedereen te vinden is. Het adres van de BRO-webservices is te vinden op www.broinfo.nl. 
+
+De webservice zorgt ervoor dat het systeem van de data-afnemer een verzoek tot verzending van een grondwatermonitoringput aan het BRO-systeem kan aanbieden, zorgt voor de verwerking van het verzoek en geeft het antwoord van de BRO terug aan het systeem van de data-afnemer. Als alles goed is gegaan bevat het antwoord de opgevraagde gegevens.
+
+![Communicatie tussen afnemer en uitgifte BRO berichtenverkeer](media/fig-communicatie-afnemer-uitgifte.png)
