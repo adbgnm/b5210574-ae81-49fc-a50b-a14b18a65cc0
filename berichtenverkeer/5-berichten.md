@@ -50,7 +50,7 @@ Onderstaand figuur toont de berichten in het BRO berichtenverkeer.
 | tijdstip van verwerking | 1-1 | Zie [paragraaf ](#711-identificatie) |
 
 ## Bericht van afwijzing
-[Tabel: Beschrijving van het bericht van registratie]
+[Tabel: Beschrijving van het bericht van afwijzing]
 
 | Naam       | Bericht van afwijzing    |
 |------      | --------------------------|
