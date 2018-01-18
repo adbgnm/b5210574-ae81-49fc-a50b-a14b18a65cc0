@@ -40,6 +40,7 @@ Onderstaand figuur toont de berichten in het BRO berichtenverkeer.
 | Toelichting| ...  |
 
 [Tabel: Overzicht attributen]
+
 | Attribuut | Kardinaliteit | Beschrijving |
 | ----------| --------------| -------------|
 | verzoekkenmerk | 1-1 | Zie [paragraaf ](#711-identificatie) |
