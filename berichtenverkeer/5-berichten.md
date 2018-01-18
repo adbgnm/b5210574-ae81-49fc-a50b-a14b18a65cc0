@@ -52,11 +52,10 @@ Onderstaand figuur toont de berichten in het BRO berichtenverkeer.
 ## Bericht van afwijzing
 [Tabel: Beschrijving van het bericht van registratie]
 
-| Naam       |     |
+| Naam       | Bericht van afwijzing    |
 |------      | --------------------------|
 | Alias             | intakeResponse  |
-| Definitie         |  Het bericht van afwijzing dat de dataleverancier als antwoord krijgt wanneer bij de verwerking een invoerfout in het verzoek wordt gevonden verschilt maar op een punt van dat wat teruggegeven wordt bij het begin van de registratie. 
-                        |
+| Definitie         |  Het bericht van afwijzing dat de dataleverancier als antwoord krijgt wanneer bij de verwerking een invoerfout in het verzoek wordt gevonden verschilt maar op een punt van dat wat teruggegeven wordt bij het begin van de registratie. |
 | Datum opname      |  |
 | Unieke aanduiding | verzoekkenmerk |
 | Toelichting| ...  |
