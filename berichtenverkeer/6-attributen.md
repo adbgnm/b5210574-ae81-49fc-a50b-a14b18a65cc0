@@ -33,7 +33,6 @@
 | Identificerend | Ja |
 
 
-
 ## Bericht van afwijzing
 
 ### verzoekkenmerk
