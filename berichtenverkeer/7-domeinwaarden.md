@@ -8,9 +8,9 @@ Hieronder staan de domeinwaarden...
 
 | Naam | TypeBrondocument |
 | :--- | :--- |
-| **Definitie** | Het type brondocument. |
-| **Datum opname** |  |
-| **Toelichting** | Voor enumeraties die deel uitmaken van een (basis-) registratie of informatiemodel betreft dit de daarin opgenomen toelichting. |
+| Definitie | Het type brondocument. |
+| Datum opname |  |
+| Toelichting | Voor enumeraties die deel uitmaken van een (basis-) registratie of informatiemodel betreft dit de daarin opgenomen toelichting. |
 
 
 [Tabel. De geldige waarden van het domein TypeBrondocument]
