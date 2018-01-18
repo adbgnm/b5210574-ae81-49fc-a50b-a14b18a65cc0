@@ -1,0 +1,8 @@
+# Domeinwaarden (enumeraties)
+
+## TypeBrondocument
+
+
+
+## TypeCorrectie
+
