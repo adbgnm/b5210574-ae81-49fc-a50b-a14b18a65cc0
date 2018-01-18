@@ -9,6 +9,10 @@ De gegevens van de grondwatermonitoringput worden altijd via de innamewebservice
 
 Om zich bij de registerbeheerder als gebruiker van de webservice te laten registreren, moet de organisatie van de dataleverancier beschikken over een PKIoverheid services certificaat.
 
+## Melding en bericht
+
+Het verzoek van de dataleverancier en het antwoord dat de BRO daarop normaliter geeft worden _berichten_ genoemd. In het geval zich technische problemen voordoen wordt het antwoord een _melding_ genoemd.
+
 ## Uitwisselformaat
 De gegevens die via de innamewebservice aan de BRO worden overgedragen staan in het IMBRO-XML formaat. Het IMBRO-XML formaat is de gegevensdefinitie omgezet naar de technische taal die voor de uitwisseling van gegevens met het systeem van de BRO gebruikt wordt. De technische uitwerking wordt toegelicht in de koppelvlakbeschrijving van de innamewebservice.
 
