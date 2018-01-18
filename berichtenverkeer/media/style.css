@@ -5,7 +5,8 @@ img {
 table, td, th {
   cell-padding: 0px;
   cell-spacing: 0px;
-  border-color: #eee; 
+  border-color: #eee;
+  text-align: left;
 }
 
 thead {
